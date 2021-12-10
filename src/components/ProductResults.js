@@ -8,7 +8,7 @@ function ProductResults() {
         <div className="ProductResults">
              
      
-      <button className="btn"className="openModalBtn"
+      <button className="openModalBtn btn"
         onClick={() => {
           setModalOpen(true);
         }}
