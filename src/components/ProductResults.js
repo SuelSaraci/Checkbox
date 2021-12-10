@@ -7,7 +7,7 @@ function ProductResults() {
     return (
         <div className="ProductResults">
              
-     
+     <center>
       <button className="openModalBtn btn"
         onClick={() => {
           setModalOpen(true);
@@ -16,6 +16,7 @@ function ProductResults() {
         Continue
         </button>
       {modalOpen && <Modal setOpenModal={setModalOpen} />}
+      </center>
         </div>
     )
 }
